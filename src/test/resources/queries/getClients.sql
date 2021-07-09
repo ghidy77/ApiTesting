@@ -1,0 +1,5 @@
+SELECT * FROM
+    Clients C
+WHERE
+    C.ACTIVE = ?
+ORDER BY 1 DESC
